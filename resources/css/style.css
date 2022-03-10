@@ -4,9 +4,23 @@
 
 /* -------------------- GLOBAL DEFAULTS */
 
+body {
+    background-color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
 /* -------------------- HEADINGS AND TYPE */
 
 /* -------------------- LAYOUTS */
+
+.layout-wide {
+    background-color: blue;
+    max-width: 1000px;
+    Margin-left: auto;
+    Margin-right: auto;
+}
 
 /* -------------------- HEADER */
 
@@ -16,7 +30,3 @@
 
 /* -------------------- MODULES */
 
-body {
-    background-color: blueviolet;
-    font-family: Arial, Helvetica, sans-serif;
-}
