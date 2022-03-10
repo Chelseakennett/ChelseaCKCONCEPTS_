@@ -1,5 +1,22 @@
 @import url(normalize.css);
 
+/* -------------------- VARIABLES */
+
+/* -------------------- GLOBAL DEFAULTS */
+
+/* -------------------- HEADINGS AND TYPE */
+
+/* -------------------- LAYOUTS */
+
+/* -------------------- HEADER */
+
+/* -------------------- NAVIGATION */
+
+/* -------------------- FOOTER */
+
+/* -------------------- MODULES */
+
 body {
     background-color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
 }
