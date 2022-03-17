@@ -5,7 +5,7 @@
 /* -------------------- GLOBAL DEFAULTS */
 
 body {
-    background-color: blueviolet;
+    background-color: blue;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -15,8 +15,12 @@ body {
 
 /* -------------------- LAYOUTS */
 
+img{
+    max-width: 100%;
+}
+
 .layout-wide {
-    background-color: blue;
+    background-color: white;
     max-width: 1000px;
     Margin-left: auto;
     Margin-right: auto;
