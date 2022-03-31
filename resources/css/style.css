@@ -29,6 +29,7 @@ img{
     max-width: 1000px;
     Margin-left: auto;
     Margin-right: auto;
+    Padding:5%;
 }
 
 /* -------------------- HEADER */
@@ -36,3 +37,10 @@ img{
 /* -------------------- FOOTER */
 /* -------------------- MODULES */
 
+/* 2 col grid*/
+
+.content-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:5%;
+}
