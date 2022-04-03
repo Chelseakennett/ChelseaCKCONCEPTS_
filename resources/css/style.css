@@ -29,13 +29,23 @@ img{
     max-width: 1000px;
     Margin-left: auto;
     Margin-right: auto;
-    Padding:5%;
+    
 }
 
+.layout2-wide {
+    padding: 5%;
+}
 /* -------------------- HEADER */
 /* -------------------- NAVIGATION */
 /* -------------------- FOOTER */
 /* -------------------- MODULES */
+
+
+/* 4 col grid menu items*/
+.content-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
 /* 2 col grid*/
 
@@ -44,3 +54,5 @@ img{
     grid-template-columns: 1fr 1fr;
     gap:5%;
 }
+
+
