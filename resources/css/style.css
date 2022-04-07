@@ -22,6 +22,7 @@ h1 {
 
 img{
     max-width: 100%;
+    height: auto;
 }
 
 .layout-wide {
@@ -29,29 +30,58 @@ img{
     max-width: 1000px;
     Margin-left: auto;
     Margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.layout2-wide {
-    padding: 20px;
-}
 /* -------------------- HEADER */
+
 /* -------------------- NAVIGATION */
+
+.navigation a {
+    color: #f00;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #404C63;
+}
+
 /* -------------------- FOOTER */
+footer{
+    text-align: center;
+    color: white;
+}
+
 /* -------------------- MODULES */
 
 
 /* 4 col grid menu items*/
-.content-item {
+.content-item1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
 }
 
 /* 2 col grid*/
 
-.content-item {
+.content-item2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap:5%;
+gap: 20px;
 }
 
 
+/* 4 col grid gallery photos*/ 
+.content-item3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+}
+
+@media screen and (min-width: 800px){
+    .content-item3 {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
