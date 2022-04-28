@@ -24,6 +24,7 @@ h2 { font-family: Arial, Helvetica, sans-serif
 img{
     max-width: 100%;
     height: auto;
+    margin-bottom: 10px;
 }
 
 .layout-wide {
@@ -46,6 +47,7 @@ justify-content: space-between }
 
 header .layout-wide {
     text-align: center;
+
 }
 
 /* -------------------- CONTACT LINKS */
@@ -75,6 +77,7 @@ header .layout-wide {
 color:#404C63;
 }
 /* -------------------- FOOTER */
+
 footer{
     text-align: center;
     color: white;
